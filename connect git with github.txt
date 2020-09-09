@@ -1,3 +1,10 @@
 1: To connect local repository with github account 
    git config --global user.username {{github user name}}
- 	
+2: Add Remote Repository
+   git remote add origin {{http url of repo}}
+2: While commiting and pushing code 
+   -git config user.name "username"
+   -git config user.email "email"
+   -git add * 
+   -git commit 
+   -git push  	 	
